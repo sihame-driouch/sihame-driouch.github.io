@@ -58,3 +58,20 @@ hr {
 #bottom-links a {
   margin-right: 0.4rem;
 }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#intro {
+  animation: fade-in 1s 1s both;
+}
+
+#occupation {
+  animation: fade-in 1s 2s both;
+}
